@@ -28,12 +28,13 @@ This user can only add new employees but cannot delete or update records.
 3.	Revoking privileges:
 ```sql
 REVOKE INPRIMARYSERT ON learningschema.employees FROM 'data_entry_user'@'localhost';
-
 ```
+
 ![image](https://github.com/user-attachments/assets/e46d8a61-b152-44e6-bd9a-088b02ddc002)
 
 Backup strategies:
 Full Database Backup (Using mysqldump):
+
 ``` bash
 mysqldump -u root -p company > company_backup.sql
 ```
