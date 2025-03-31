@@ -1,4 +1,12 @@
+## Topics Covered  
+ [SQL Basics & Clauses](01_Syntax_Basics/syntax_basics.md)  
+ [CRUD Operations, Joins & Aggregations](02_CRUD_Joins_Aggregations/crud_joins.md)  
+ [Indexes & Constraints](03_Indexes_Constraints/indexes_constraints.md)  
+ [Query Optimization & Indexes](04_Query_Optimization/query_optimization.md)  
+ [Stored Procedures & Functions](05_Stored_Procedures_Functions/sp_functions.md)  
+
 SQL Security, Backup & Restoration:
+
 Now that we have our employees and departments tables with stored procedures, let's explore security, backup, and restoration concepts.
 
 1.	User Privileges (Restricting Access):
