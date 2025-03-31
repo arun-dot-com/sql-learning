@@ -63,4 +63,5 @@ INSERT INTO employees (id, name, age, department_id) VALUES
 ![image](https://github.com/user-attachments/assets/878e7531-d9e9-4cfd-9f8c-830c78652e1a)
 
 Output:
+
 ![image](https://github.com/user-attachments/assets/2be3c2e7-a278-47da-9d6e-9cce21238f9d)
