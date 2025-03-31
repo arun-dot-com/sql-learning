@@ -1,3 +1,11 @@
+## Navigate to other pages   
+ [CRUD Operations, Joins & Aggregations](02_CRUD_Joins_Aggregations/crud_joins.md)  
+ [Indexes & Constraints](03_Indexes_Constraints/indexes_constraints.md)  
+ [Query Optimization & Indexes](04_Query_Optimization/query_optimization.md)  
+ [Stored Procedures & Functions](05_Stored_Procedures_Functions/sp_functions.md)  
+ [SQL Security & Backup](06_Security_Backup/security_backup.md)
+
+Create a table and insert records:
 ```sql
 -- Creating a sample database & table
 CREATE DATABASE LearningSQL;
@@ -15,12 +23,15 @@ INSERT INTO employees (id, name, age, department) VALUES (1, 'Alice', 28, 'HR');
 ```
 ![image](https://github.com/user-attachments/assets/87c390d8-28ab-4850-ace3-49636d4ccb9a)
 
+SELECT Query:
+
 ```sql
 SELECT * FROM employees WHERE age > 25;
 
 ```
 ![image](https://github.com/user-attachments/assets/505a921b-86d4-4b36-83c4-4262aaa98b32)
 
+Create departments table:
 ```sql
 -- Create table departments
 CREATE TABLE departments (
@@ -37,6 +48,7 @@ INSERT INTO departments (id, department_name) VALUES
 ```
 ![image](https://github.com/user-attachments/assets/8329c829-bdcb-4277-b30c-937a2a847ebb)
 
+Create Employees table:
 ```sql
 -- Create Employees table
 CREATE TABLE employees (
