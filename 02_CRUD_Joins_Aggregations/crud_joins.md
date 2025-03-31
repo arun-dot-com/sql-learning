@@ -1,16 +1,25 @@
+## Navigate to other topics
+ [SQL Basics & Clauses](01_Syntax_Basics/syntax_basics.md)  
+ [Indexes & Constraints](03_Indexes_Constraints/indexes_constraints.md)  
+ [Query Optimization & Indexes](04_Query_Optimization/query_optimization.md)  
+ [Stored Procedures & Functions](05_Stored_Procedures_Functions/sp_functions.md)  
+ [SQL Security & Backup](06_Security_Backup/security_backup.md)
 
+Delete Query:
 ```sql
 DELETE FROM employees where id=1;
 SELECT * FROM employees;
 ```
 ![image](https://github.com/user-attachments/assets/fa155a64-f3d4-4a18-8b03-84fe8bf3c282)
 
+Drop command:
 ```sql
 DROP table employees;
 ```
 ![image](https://github.com/user-attachments/assets/1c5ffd94-47a2-4e75-8d8b-36c0f2b918f6)
 
 
+### Joins
 Inner Join:
 
 ```sql
