@@ -1,9 +1,3 @@
-## Navigate to other topics
- [SQL Basics & Clauses](01_Syntax_Basics/syntax_basics.md)  
- [Indexes & Constraints](03_Indexes_Constraints/indexes_constraints.md)  
- [Query Optimization & Indexes](04_Query_Optimization/query_optimization.md)  
- [Stored Procedures & Functions](05_Stored_Procedures_Functions/sp_functions.md)  
- [SQL Security & Backup](06_Security_Backup/security_backup.md)
 
 Delete Query:
 ```sql
