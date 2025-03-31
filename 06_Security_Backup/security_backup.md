@@ -3,7 +3,7 @@ SQL Security, Backup & Restoration:
 
 Now that we have our employees and departments tables with stored procedures, let's explore security, backup, and restoration concepts.
 
-1.	User Privileges (Restricting Access):
+User Privileges (Restricting Access):
 Instead of giving full access to every user, restrict privileges using GRANT statements.
 
 ```sql
@@ -17,7 +17,7 @@ GRANT SELECT ON company.* TO 'readonly_user'@'localhost';
 
 This user can only run SELECT queries on the company database (assuming our tables are in company). The user cannot modify or delete data.
 
-2. User with only insert access:
+User with only insert access:
 ```sql
 CREATE USER 'data_entry_user'@'localhost' IDENTIFIED BY 'password123';
 GRANT INSERT ON learningschema.employees TO 'data_entry_user'@'localhost';
@@ -28,7 +28,7 @@ FLUSH PRIVILEGES;
 
 This user can only add new employees but cannot delete or update records.
 
-3.	Revoking privileges:
+Revoking privileges:
 
 ```sql
 REVOKE INPRIMARYSERT ON learningschema.employees FROM 'data_entry_user'@'localhost';
@@ -64,7 +64,9 @@ EXECUTE stmt USING @name;
 ```
 
 ![image](https://github.com/user-attachments/assets/d1eef931-9dae-43ce-864f-714fe4fdf9b1)
+
 This ensures user input is properly escaped, preventing SQL injection.
+
 ```sql
 GRANT SELECT, INSERT ON learningschema.* TO 'secure_user'@'192.168.1.100';
 
@@ -74,6 +76,7 @@ Restrict Users to Specific IP Addresses:
 ![image](https://github.com/user-attachments/assets/e748eeee-9d7e-40df-9d6c-98f05d999517)
 
 Showing the privileges of current user:
+
 ```sql
 SHOW GRANTS FOR CURRENT_USER()
 ```
