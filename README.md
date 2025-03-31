@@ -11,3 +11,5 @@ This repository contains hands-on SQL scripts and explanations for various topic
 
 ## Schema structure
 ![image](https://github.com/user-attachments/assets/d657fa8e-cbc5-4ec8-ac79-f8449a285518)
+
+Find this site at : https://arun-dot-com.github.io/sql-learning/
