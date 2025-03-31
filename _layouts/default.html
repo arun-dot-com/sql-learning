@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/01_Syntax_Basics.md' | relative_url }}">Syntax Basics</a> |
+        <a href="{{ '/02_CRUD_Joins_Aggregations.md' | relative_url }}">CRUD & Joins</a> |
+        <a href="{{ '/03_Indexes_Constraints.md' | relative_url }}">Indexes & Constraints</a> |
+        <a href="{{ '/04_Query_Optimization.md' | relative_url }}">Query Optimization</a> |
+        <a href="{{ '/05_Stored_Procedures_Functions.md' | relative_url }}">Stored Procedures</a> |
+        <a href="{{ '/06_Security_Backup.md' | relative_url }}">Security & Backup</a>
+    </nav>
+    <hr>
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>
