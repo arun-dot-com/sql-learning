@@ -14,6 +14,7 @@ GRANT SELECT ON company.* TO 'readonly_user'@'localhost';
 
 ![image](https://github.com/user-attachments/assets/71ee3dce-809b-4324-b2e1-1c9303844d60)
 
+
 This user can only run SELECT queries on the company database (assuming our tables are in company). The user cannot modify or delete data.
 
 2. User with only insert access:
@@ -21,15 +22,17 @@ This user can only run SELECT queries on the company database (assuming our tabl
 CREATE USER 'data_entry_user'@'localhost' IDENTIFIED BY 'password123';
 GRANT INSERT ON learningschema.employees TO 'data_entry_user'@'localhost';
 FLUSH PRIVILEGES;
-```   
+```
+
 ![image](https://github.com/user-attachments/assets/5a82df3b-b22f-4b4f-8a80-f1914a52bced)
+
 This user can only add new employees but cannot delete or update records.
 
 3.	Revoking privileges:
+
 ```sql
 REVOKE INPRIMARYSERT ON learningschema.employees FROM 'data_entry_user'@'localhost';
 ```
-
 ![image](https://github.com/user-attachments/assets/e46d8a61-b152-44e6-bd9a-088b02ddc002)
 
 Backup strategies:
