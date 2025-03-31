@@ -1,9 +1,3 @@
-## Navigate to other pages  
- [SQL Basics & Clauses](01_Syntax_Basics/syntax_basics.md)  
- [CRUD Operations, Joins & Aggregations](02_CRUD_Joins_Aggregations/crud_joins.md)  
- [Query Optimization & Indexes](04_Query_Optimization/query_optimization.md)  
- [Stored Procedures & Functions](05_Stored_Procedures_Functions/sp_functions.md)  
- [SQL Security & Backup](06_Security_Backup/security_backup.md)  
 
 Indexes speed up search and JOIN operations.
 Constraints enforce data integrity, preventing bad data entry.
