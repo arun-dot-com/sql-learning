@@ -17,3 +17,4 @@ jobs:
 
       - name: Verify Identity
         run: aws sts get-caller-identity
+
